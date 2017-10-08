@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>Test</title>
+</head>
+<body>
+<div id="app">
+  <input type="text" v-model="key">
+  {{key}}
+</div>
+<script src="vue.js"></script>
+<script type="text/javascript">
+
+  var vm=new Vue({
+    el:'app',
+    data:{
+      key:'hello world'
+    }
+  });
+
+</script>
+</body>
+</html>
